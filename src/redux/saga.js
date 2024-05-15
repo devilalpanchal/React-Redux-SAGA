@@ -1,8 +1,5 @@
 import axios from "axios"
 import { put, takeEvery } from "redux-saga/effects"
-
-
-
 function* fetchData(){
 let resp=yield axios.get('https://dummyjson.com/products')
 
