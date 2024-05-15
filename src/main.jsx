@@ -13,3 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
  </Provider>
 
 )
+
+// main.jsx 
+// we have to import provider form react-redux and put app component as a child provider 
+// in provider we have Store attribute we have to pass 
