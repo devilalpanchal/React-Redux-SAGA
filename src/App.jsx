@@ -14,9 +14,9 @@ function App() {
   const handleDecrease = () => {
     dispatch(actionType.decreaseByOne());
   };
-  // const handleFetch = ()=>{
-  //   dispatch({type:'fetch'})
-  // }
+  const handleFetch = ()=>{
+    dispatch({type:'fetch'})
+  }
 
   // let fetchdata=async()=>{
   //   const response = await fetch('https://dummyjson.com/products')

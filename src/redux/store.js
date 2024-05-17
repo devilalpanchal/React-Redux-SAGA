@@ -12,6 +12,8 @@ export const store=legacy_createStore(reducer,applyMiddleware(sagaMiddleware))
 sagaMiddleware.run(rootSaga)
 
 
+
+
 // fime name
 // first file
 // to create legacy_createStore
